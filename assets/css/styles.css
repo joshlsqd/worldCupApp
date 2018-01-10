@@ -7,7 +7,9 @@
  }
 
  body{
-     background: #f6f6f6 ;
+     background-image:url(./images/soccer_001.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
  }
 
  .countdownContainer{
@@ -25,4 +27,27 @@
 
  .info{
      font-size: 80px;
+ }
+
+ body{
+
+ }
+ .jumbotron{
+     text-align:center;
+     color: white;
+
+ }
+ h1{
+     font-size: 60px;
+ }
+ p{
+     font-size: 20px;
+ }
+ #button-team{
+     margin-left: 175px;
+     margin-right: 175px;
+ }
+ #news-team{
+     margin-left: 175px;
+     margin-right: 175px;
  }

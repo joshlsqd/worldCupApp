@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/youtube_buttons.html" afterPath="$PROJECT_DIR$/youtube_buttons.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +19,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1127">
+              <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube_buttons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youtube_buttons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="176" column="24" lean-forward="false" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +70,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/youtube_buttons.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -73,6 +116,12 @@
               <item name="worldCupApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="worldCupApp" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worldCupApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worldCupApp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worldCupApp" type="b2602c69:ProjectViewProjectNode" />
@@ -133,15 +182,16 @@
       <workItem from="1515261656088" duration="3883000" />
       <workItem from="1515513683486" duration="12544000" />
       <workItem from="1515550790406" duration="788000" />
-      <workItem from="1515553169238" duration="330000" />
+      <workItem from="1515553169238" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20448000" />
+    <option name="totallyTimeSpent" value="22394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10572917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -263,32 +313,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/youtube_buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="1127">
+          <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="515">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+        <state relative-caret-position="702">
+          <caret line="176" column="24" lean-forward="false" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
           <folding />
         </state>
       </provider>

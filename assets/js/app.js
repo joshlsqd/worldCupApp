@@ -68,6 +68,114 @@ function countdown() {
     setTimeout(countdown, 1000)
 
 }
+// Array of World Cup Teams
+var teams = ["Argentina", "Australia", "Belgium", "Brazil","Colombia","Costa Rica","Croatia","Denmark","Egypt","England","France","Germany","Iceland","Iran","Japan","Mexico","Morocco","Nigeria","Panama","Peru","Poland","Portugal","Russia","Saudi Arabia","Serbia","Senegal","South Korea","Spain","Sweden","Switzerland","Tunisia","Uruguay"];
+
+// newsapi.org Key = 7191270be1f245e497528ea460224750
+
+function getVideoId(){
+    $("#video-team").empty();
+
+    var team = $(this).attr("team-name");
+
+    console.log(team);
+
+    var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="+team+",world,cup,russia,2018&key=AIzaSyAB1tKwjBxqFW9mWA9LBeo269fjyDK9XD4"
+
+    // Creating an AJAX call for the specific national team button being clicked
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).done(function(videoNews) {
+
+        console.log(videoNews);
+
+        var results = videoNews.items;
+        var videoId = results[0].id.videoId;
+        var videoUrl = "http://www.youtube.com/embed/"+videoId;
+        var videoDiv = "<iframe width='420' height='315'src='"+videoUrl+"'frameborder='0' allowfullscreen></iframe>"
+        $("#video-team").html(videoDiv);
+
+        console.log(videoId);
+    });
+}
+
+function getNews(){
+    $("#news-team").empty();
+
+    var team = $(this).attr("team-name");
+
+    console.log(team);
+
+    var queryURL = "https://newsapi.org/v2/everything?q=" + "+"+team +",'World Cup'&sortBy=relevancy&language=en&apiKey=7191270be1f245e497528ea460224750";
+
+    // console.log(queryURL);
+    // Creating an AJAX call for the specific national team button being clicked
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).done(function(dataNews) {
+
+        // console.log(dataNews);
+
+        var results = dataNews.articles;
+        var limit = 7;
+
+        // console.log(results);
+        // Generate the HTML tags for the news section
+        for (var i=0; i<limit; i++){
+
+            var teamDiv = $("<div>");
+            var teamSnippet = $("<p>");
+            var teamNews = $("<a>");
+            var br = $("<br>");
+
+            teamSnippet.text(results[i].description);
+
+            teamNews.addClass("news");
+
+            teamNews.attr("href", results[i].url);
+
+            teamNews.attr("target","_blank")
+
+            teamNews.text(results[i].url);
+
+            teamDiv.append(teamNews);
+
+            teamDiv.append(teamSnippet);
+
+            $("#news-team").prepend(teamDiv);
+            // console.log(results[i].url);
+
+        }
+    });
+}
+
+function renderButtons() {
+    $("#button-team").empty();
+    // Looping through the array of national teams
+    for (var i = 0; i < teams.length; i++) {
+
+        var a = $("<button>");
+
+        a.addClass("country-button")
+
+        a.attr("team-name", teams[i]);
+        // Providing the initial button text
+        a.text(teams[i]);
+        // Adding the button to the #button- team div
+        $("#button-team").append(a);
+    }
+}
+
+renderButtons();
+getVideoId();
+
+
+$(document).on("click",".country-button",getNews)
+$(document).on("click",".country-button",getVideoId)
+$("#news-team").empty();
+
 
 countdown();
 displayFixtures();
