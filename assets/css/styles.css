@@ -1,13 +1,36 @@
+.country-button{
 
- .nav-wrapper .brand-logo img {
+     margin:5px;
+}
+ 
+ .nav-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+ } 
+
+
+ .brandLogo img {
     height: 64px;
 }
  .fa {
      margin-left: 10px;
  }
 
+.Countdown-header {
+     text-align: center;
+}
+
+.days, .hours, .minutes, .seconds{
+     text-align: center;
+}
+ .header{
+     text-align: center;
+     font-size: 48px;
+ }
+
  body{
-     background-image:url(./images/soccer_001.jpg);
+     /*background-image:url(./images/soccer_001.jpg);*/
      background-repeat: no-repeat;
      background-size:cover;
  }
