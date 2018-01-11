@@ -16,39 +16,33 @@
 <body>
 	<nav>
 		<div class="nav-wrapper red darken-4">
-			<a href="#" class="brandLogo"><img src="https://storify.com/services/proxy/2/s-7WkrFMGILqux_QfsnyUg/http/pbs.twimg.com/media/B1G1qS_IUAEJa5O.jpg"></a>
-			<div class="header">World Cup News!</div>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="sass.html">Sass</a></li>
-				<li><a href="badges.html">Components</a></li>
-				<li><a href="collapsible.html">JavaScript</a></li>
-			</ul>
 			
+			
+			<a href="#" class="brandLogo"><img src="https://storify.com/services/proxy/2/s-7WkrFMGILqux_QfsnyUg/http/pbs.twimg.com/media/B1G1qS_IUAEJa5O.jpg"></a>
+			
+			
+			<div class="header">World Cup News!</div>
+			
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<a href="http://resources.fifa.com/mm/document/tournament/competition/02/66/71/62/2018fwc_matchschedule_20122017_en_neutral.pdf" class="waves-effect waves-light btn"><i class="material-icons right ">list</i>Official Schedule</a>
+			</ul>
 		</div>
 	</nav>
-	<div class="row">
-		<div class="col s12">
-			<div class="jumbotron" >
-				<!--             <h1 class="display-3">World Cup News!</h1>
-				<p class="lead">This is a search section for World Cup news by national teams participating in Russia 2018.</p>
-				<hr> -->
-				<!-- <p>Click on the Buttom of the team of your interest</p> -->
-				<!--<div id="container">-->
+	
+<!-- <div class="container"> -->
+	    <div class="row">
+
+      <div class="col s3">
+        <!-- Grey navigation panel -->
+        <div class="jumbotron" >
+
 				<div id="button-team">
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="row content">
-		<div class="col s12 m6">
-			<div class="container ">
-				<a href="http://resources.fifa.com/mm/document/tournament/competition/02/66/71/62/2018fwc_matchschedule_20122017_en_neutral.pdf" class="waves-effect waves-light btn"><i class="material-icons right">list</i>Official Schedule</a>
-				<ul class="collapsible collection content" data-collapsible="accordion" id="fixtures">
-				</ul>
-			</div>
-		</div>
-		<div class="col s12 m6">
-			<table class="countdownContainer">
+      </div>
+
+      <div class="col s9">
+        <table class="countdownContainer">
 				<tr class="info">
 					<td class="Countdown-header" colspan="4">World Cup Countdown</td>
 				</tr>
@@ -65,21 +59,22 @@
 					<td class="seconds">Seconds</td>
 				</tr>
 			</table>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col s12 m6">
-			<!--youtube video here-->
-			<div id="video-team">
-			</div>
-		</div>
-		<div class="col s12 m6">
-			<!--Teams news will be dump here-->
-			<div id="news-team">
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <div class="container "> -->
+				
+				<ul class="collapsible collection content" data-collapsible="accordion" id="fixtures">
+				</ul>
+			<!-- </div> -->
+
+		
+			<div id="video-team"></div>
+			
+			<div id="news-team"></div>
+
+      </div>
+
+    </div>
+<!-- </div> -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

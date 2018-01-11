@@ -1,8 +1,23 @@
+/*
 .country-button{
 
      margin:5px;
-}
- 
+}*/
+
+  body{
+     /*background-image:url(./images/soccer_001.jpg);*/
+     background-repeat: no-repeat;
+     background-size:cover;
+ }
+
+  h1{
+     font-size: 60px;
+ }
+ p{
+     font-size: 20px;
+ }
+
+
  .nav-wrapper{
     height: 100%;
     display: flex;
@@ -13,57 +28,82 @@
  .brandLogo img {
     height: 64px;
 }
- .fa {
+/* .fa {
      margin-left: 10px;
+ }*/
+
+  .header{
+     text-align: center;
+     font-size: 48px;
+ }
+
+.jumbotron{
+     text-align:center;
  }
 
 .Countdown-header {
      text-align: center;
 }
 
-.days, .hours, .minutes, .seconds{
-     text-align: center;
-}
- .header{
-     text-align: center;
-     font-size: 48px;
- }
-
- body{
-     /*background-image:url(./images/soccer_001.jpg);*/
-     background-repeat: no-repeat;
-     background-size:cover;
- }
-
- .countdownContainer{
+.countdownContainer{
      text-align: center;
      border: 1px solid #999;
      padding: 10px;
-     box-shadow: 0 0 5px 3px #ccc;
+     margin-top: 10px;
+     /*box-shadow: 0 0 5px 3px #ccc;*/
  }
+
+.days, .hours, .minutes, .seconds{
+     text-align: center;
+
+}
 
  .info{
-     font-size: 80px;
+     font-size: 50px;
  }
 
- .jumbotron{
-     text-align:center;
- }
- h1{
-     font-size: 60px;
- }
- p{
-     font-size: 20px;
- }
  #button-team{
-     margin-left: 175px;
-     margin-right: 175px;
+/*     margin-left: 175px;
+     margin-right: 175px;*/
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
  }
  #news-team{
-     margin-left: 175px;
-     margin-right: 175px;
+/*     margin-left: 175px;
+     margin-right: 175px;*/
  }
 
  .content {
      max-height: 500px;
  }
+
+/* .row-container{
+     display: flex;
+
+ }*/
+
+ .container{
+
+ }
+
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.schedule-labels{
+     font-size: 16px;
+}
+
+
+

@@ -26,7 +26,7 @@ function displayFixtures() {
             awayTeamGoals = response.fixtures[i].result.goalsAwayTeam;
             odds = response.fixtures[i].odds;
             var fixturehtml = '';
-            fixturehtml += '<li>'
+            fixturehtml += '<li class="schedule-labels">'
             fixturehtml += '<div class="collapsible-header"><span>'+ fixtureDate +'   </span><i class="fa fa-futbol-o fixture" aria-hidden="true"></i><span class="title">' + homeTeam + ' - ' + awayTeam + '</span></div></div>'
             fixturehtml += '<div class="collapsible-body"><p> Result: '+ homeTeamGoals +' - '+ awayTeamGoals +'<br>Matchday: '+ matchday +'<br>Odds: '+ odds +'</p></div>'
             $('#fixtures').append(fixturehtml);
@@ -37,6 +37,25 @@ function displayFixtures() {
     });
 
 }
+
+// // When the user scrolls the page, execute myFunction 
+// window.onscroll = function() {myFunction()};
+
+// // Get the navbar
+// var navbar = document.getElementById("button-team");
+
+// // Get the offset position of the navbar
+// var sticky = navbar.offsetTop;
+
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
 
 function countdown() {
     var now = new Date();
