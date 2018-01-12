@@ -116,7 +116,6 @@ function getVideoId(){
 function getNews(){
     $("#news-team").empty();
     var team = $(this).attr("team-name");
-    console.log(team)
     var queryURL = "https://newsapi.org/v2/everything?q=" + "+"+team +",'World Cup'&sortBy=relevancy&language=en&apiKey=7191270be1f245e497528ea460224750";
 
     // Creating an AJAX call for the specific national team button being clicked
@@ -151,8 +150,8 @@ function renderButtons() {
     $("#button-team").empty();
     // Looping through the array of national teams
     for (var i = 0; i < teams.length; i++) {
-        var a = $("<button>");
-        a.addClass("country-button")
+        var a = $("<a></a>");
+        a.addClass("country-button waves-effect waves-light btn")
         a.attr("team-name", teams[i]);
         // Providing the initial button text
         
@@ -161,6 +160,8 @@ function renderButtons() {
         $("#button-team").append(a);
     }
 }
+
+
 
 renderButtons();
 getVideoId();
