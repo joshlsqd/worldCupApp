@@ -14,7 +14,7 @@
      font-size: 60px;
  }
  p{
-     font-size: 20px;
+     font-size: 17px;
  }
 
 
@@ -83,9 +83,19 @@
 
  }*/
 
- .container{
-
- }
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 84%;
+}
+@media only screen and (min-width: 601px)
+  .container {
+    width: 84%;
+}
+@media only screen and (min-width: 993px)
+  .container {
+    width: 70%;
+}
 
  .sticky {
   position: fixed;
